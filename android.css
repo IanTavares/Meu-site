@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    }
+
+body {
+    font-size: 25px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 13%, rgba(0,212,255,1) 97%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    }
+    
+    .cabeçalho-foto-logo {
+        height: 120px;
+       
+    }
+    
+    .cabeçalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+    
+    .cabeçalho-menu-item {
+        font-family: 'Sarala',sans-serif;
+        color: aliceblue;
+        font-weight: 400;
+        font-size: 18px;
+    }    
+
+.titulo-android {
+    color: white;
+    text-align: center;
+}
+
+.texto-android {
+     margin-bottom: 48px;
+border-top: 0.4px solid whitesmoke;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+color: white;
+padding-top: 15px;
+}
+     
+
+.lista {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3px;
+
+}
+
+.titulo-ios {
+    margin-bottom: 48px;
+    border-top: 0.4px solid whitesmoke;
+    color: white;
+    text-align: center;
+}
+
+.foto-iphone-14 {
+    height: 380px;
+    float: right;
+    height: 300px;
+    padding-right: 140px;
+    
+   
+}
+
+.texto-iphone-14 {
+    display: flex;
+    color: white;
+    text-align: center;
+  
+}
+
+.icone-redes-sociais {
+    width: 20px;
+}
+
+.redes-socias i{
+    line-height: 90px;
+    font-size: 25px;
+    transition: 0.2s linear;
+
+}
+
+.icone-redes-sociais img {
+    width: 25px;
+    float: right;
+    padding-right: 5px;
+
+}
+ 
+.icone-redes-sociais img :hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .3s, border 1s;
+}

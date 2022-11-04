@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contatos.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <header class="cabeçalho">
+            <img class="cabeçalho-imagem" src="imagens and-ios/Logo_canal.png" alt="logo Dicas do ian">
+            
+            
+            <nav class="cabeçalho-menu">
+            <a class="cabeçalho-menu-item" href="index.html">Início</a>
+            <a class="cabeçalho-menu-item" href="android.html">Android / IOS</a>
+            <a class="cabeçalho-menu-item" href="tutoriais.html">Tutoriais</a>
+            <a class="cabeçalho-menu-item" href="">Contato</a>
+        </nav>
+    </header>
+    
+    <body>
+        <h1 class="titulo">Contato</h1>
+    
+        <form action="formulario-contato">
+        <div class="informacoes-nome">
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" placeholder="Seu nome (Obrigatório)">
+        </div>
+    
+        <div class="informacoes-email">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Seu E-mail (Obrigatório)">
+        </div>
+    
+        <div class="informacoes-assunto">
+            <label for="texto">Assunto:</label>
+            <input type="texto" id="assunto" placeholder="Descreva em poucas palavras">
+        </div>
+    
+        <textarea name="texto" id="Mensagem" cols="30" rows="10">Mensagem</textarea>
+    <br>
+        <input class="botao" type="submit" value="Enviar">
+    </form>
+    </body>
+    </html>

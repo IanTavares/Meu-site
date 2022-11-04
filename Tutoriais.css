@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-size: 25px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 13%, rgba(0,212,255,1) 97%);
+}
+
+html {
+    scroll-behavior: smooth;
+    }
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    }
+    
+    .imagem-android {
+        height: 200px;
+        display: block;
+        margin: auto;
+       
+    }
+    
+    .cabeçalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+    
+    .cabeçalho-menu-item {
+        font-family: 'Sarala',sans-serif;
+        color: aliceblue;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .titulo-principal {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        
+    
+    }
+
+    .texto-principal {
+    font-family: 'Sarala',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    padding: auto;
+    color: white;
+    
+    }
+
+    .texto-ios-2 {
+        margin-bottom: 48px;
+        
+        font-family: 'Sarala';
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    
+    .icone-redes-sociais {
+        width: 20px;
+        text-align: center;
+        
+       
+    }
+    
+    .redes-socias i{
+        line-height: 90px;
+        font-size: 25px;
+        transition: 0.2s linear;
+    
+    }
+    
+    .icone-redes-sociais img {
+        width: 25px;
+        margin: 1.5px;
+        border-radius: 50%;
+        box-shadow: 2px solid white;
+        
+    
+    }
+     
+    .icone-redes-sociais img :hover {
+        border: 2px solid white;
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+        transition: transform .3s, border 1s;
+    }
