@@ -16,6 +16,16 @@ body {
   font-size: 25px;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 13%, rgba(0,212,255,1) 97%);
+ 
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main img{
+   width: 100%;
 }
 
 .cabeçalho {
@@ -28,7 +38,8 @@ body {
 
 .cabeçalho-imagem {
     height: 120px;
-   
+
+
 }
 
 .cabeçalho-menu {
@@ -182,12 +193,14 @@ body {
     margin-top:10px;
     margin-bottom:8px;
     border-radius: 10px;
+  
 }
 
 .videos-rodape-centro {
     width: 600px;
     margin: 30px;
     border-radius: 10px;
+    
 }
 
 
@@ -196,4 +209,5 @@ body {
     margin-top:10px;
     margin-bottom:8px;
     border-radius: 10px;
+    
 }

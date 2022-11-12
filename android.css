@@ -34,6 +34,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 13%, rgba
     .cabeçalho-menu {
         display: flex;
         gap: 32px;
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
     }
     
     .cabeçalho-menu-item {
@@ -46,6 +49,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 13%, rgba
 .titulo-android {
     color: white;
     text-align: center;
+}
+
+.foto-sansung {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .texto-android {
@@ -78,7 +93,8 @@ padding-top: 15px;
     float: right;
     height: 300px;
     padding-right: 140px;
-    
+    min-width: 320px;
+    max-width: 800px;
    
 }
 
@@ -86,7 +102,8 @@ padding-top: 15px;
     display: flex;
     color: white;
     text-align: center;
-  
+  min-width: 320px;
+  max-width: 800px;
 }
 
 .icone-redes-sociais {
